@@ -8,80 +8,78 @@
   <a href="https://github.com/harry0703/MoneyPrinterTurbo/blob/main/LICENSE"><img src="https://img.shields.io/github/license/harry0703/MoneyPrinterTurbo.svg?style=for-the-badge" alt="License"></a>
 </p>
 <br>
-<h3>简体中文 | <a href="README-en.md">English</a></h3>
+<h3>Tiếng Việt | <a href="README-en.md">English</a> | <a href="README-ch.md">中文</a></h3>
 <div align="center">
   <a href="https://trendshift.io/repositories/8731" target="_blank"><img src="https://trendshift.io/api/badge/repositories/8731" alt="harry0703%2FMoneyPrinterTurbo | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
 </div>
 <br>
-只需提供一个视频 <b>主题</b> 或 <b>关键词</b> ，就可以全自动生成视频文案、视频素材、视频字幕、视频背景音乐，然后合成一个高清的短视频。
+Chỉ cần cung cấp một <b>chủ đề</b> hoặc <b>từ khóa</b> video, hệ thống sẽ tự động tạo kịch bản video, tìm kiếm tài liệu video, tạo phụ đề và nhạc nền, sau đó kết hợp tất cả thành một video ngắn độ phân giải cao.
 <br>
 
-<h4>Web界面</h4>
+<h4>Giao diện Web</h4>
 
 ![](docs/webui.jpg)
 
-<h4>API界面</h4>
+<h4>Giao diện API</h4>
 
 ![](docs/api.jpg)
 
 </div>
 
-## 特别感谢 🙏
+## Lời cảm ơn đặc biệt 🙏
 
-由于该项目的 **部署** 和 **使用**，对于一些小白用户来说，还是 **有一定的门槛**，在此特别感谢
-**录咖（AI智能 多媒体服务平台）** 网站基于该项目，提供的免费`AI视频生成器`服务，可以不用部署，直接在线使用，非常方便。
+Vì việc **triển khai** và **sử dụng** dự án này có thể khó khăn đối với người mới, nên chúng tôi đặc biệt cảm ơn nền tảng **RecCloud (Nền tảng dịch vụ đa phương tiện AI thông minh)** đã phát triển dựa trên dự án này và cung cấp dịch vụ `Trình tạo video AI` miễn phí. Người dùng có thể sử dụng trực tiếp mà không cần triển khai, rất thuận tiện.
 
-- 中文版：https://reccloud.cn
-- 英文版：https://reccloud.com
+- Phiên bản tiếng Trung: https://reccloud.cn
+- Phiên bản tiếng Anh: https://reccloud.com
 
 ![](docs/reccloud.cn.jpg)
 
-## 感谢赞助 🙏
+## Cảm ơn nhà tài trợ 🙏
 
-感谢佐糖 https://picwish.cn 对该项目的支持和赞助，使得该项目能够持续的更新和维护。
+Cảm ơn PicWish https://picwish.cn đã hỗ trợ và tài trợ cho dự án này, giúp dự án có thể tiếp tục cập nhật và bảo trì.
 
-佐糖专注于**图像处理领域**，提供丰富的**图像处理工具**，将复杂操作极致简化，真正实现让图像处理更简单。
+PicWish tập trung vào **lĩnh vực xử lý hình ảnh**, cung cấp nhiều **công cụ xử lý hình ảnh** đa dạng, đơn giản hóa các thao tác phức tạp, thực sự giúp việc xử lý hình ảnh trở nên dễ dàng hơn.
 
 ![picwish.jpg](docs/picwish.jpg)
 
-## 功能特性 🎯
+## Tính năng 🎯
 
-- [x] 完整的 **MVC架构**，代码 **结构清晰**，易于维护，支持 `API` 和 `Web界面`
-- [x] 支持视频文案 **AI自动生成**，也可以**自定义文案**
-- [x] 支持多种 **高清视频** 尺寸
-    - [x] 竖屏 9:16，`1080x1920`
-    - [x] 横屏 16:9，`1920x1080`
-- [x] 支持 **批量视频生成**，可以一次生成多个视频，然后选择一个最满意的
-- [x] 支持 **视频片段时长** 设置，方便调节素材切换频率
-- [x] 支持 **中文** 和 **英文** 视频文案
-- [x] 支持 **多种语音** 合成，可 **实时试听** 效果
-- [x] 支持 **字幕生成**，可以调整 `字体`、`位置`、`颜色`、`大小`，同时支持`字幕描边`设置
-- [x] 支持 **背景音乐**，随机或者指定音乐文件，可设置`背景音乐音量`
-- [x] 视频素材来源 **高清**，而且 **无版权**，也可以使用自己的 **本地素材**
-- [x] 支持 **OpenAI**、**Moonshot**、**Azure**、**gpt4free**、**one-api**、**通义千问**、**Google Gemini**、**Ollama**、
-  **DeepSeek**、 **文心一言** 等多种模型接入
-    - 中国用户建议使用 **DeepSeek** 或 **Moonshot** 作为大模型提供商（国内可直接访问，不需要VPN。注册就送额度，基本够用）
+- [x] **Kiến trúc MVC** đầy đủ, cấu trúc mã **rõ ràng**, dễ bảo trì, hỗ trợ cả `API` và `Giao diện Web`
+- [x] Hỗ trợ **tự động tạo kịch bản video bằng AI**, hoặc có thể **tùy chỉnh kịch bản**
+- [x] Hỗ trợ nhiều **kích thước video HD**
+    - [x] Màn hình dọc 9:16, `1080x1920`
+    - [x] Màn hình ngang 16:9, `1920x1080`
+- [x] Hỗ trợ **tạo video hàng loạt**, có thể tạo nhiều video cùng lúc và chọn video ưng ý nhất
+- [x] Hỗ trợ cài đặt **thời lượng đoạn video**, thuận tiện điều chỉnh tần suất chuyển đổi tài liệu
+- [x] Hỗ trợ kịch bản video bằng **tiếng Trung** và **tiếng Anh**
+- [x] Hỗ trợ tổng hợp **nhiều giọng nói**, có thể **nghe thử** ngay lập tức
+- [x] Hỗ trợ **tạo phụ đề**, có thể điều chỉnh `phông chữ`, `vị trí`, `màu sắc`, `kích thước`, đồng thời hỗ trợ cài đặt `viền phụ đề`
+- [x] Hỗ trợ **nhạc nền**, ngẫu nhiên hoặc chỉ định tệp nhạc, có thể điều chỉnh `âm lượng nhạc nền`
+- [x] Tài liệu video có độ phân giải **cao** và **không có bản quyền**, cũng có thể sử dụng **tài liệu cục bộ** của riêng bạn
+- [x] Hỗ trợ nhiều mô hình như **OpenAI**, **Moonshot**, **Azure**, **gpt4free**, **one-api**, **通义千问**, **Google Gemini**, **Ollama**, **DeepSeek**, **文心一言**, v.v.
+    - Người dùng Trung Quốc nên sử dụng **DeepSeek** hoặc **Moonshot** làm nhà cung cấp mô hình (có thể truy cập trực tiếp từ Trung Quốc mà không cần VPN. Đăng ký được tặng hạn mức, đủ để sử dụng)
 
-### 后期计划 📅
+### Kế hoạch tương lai 📅
 
-- [ ] GPT-SoVITS 配音支持
-- [ ] 优化语音合成，利用大模型，使其合成的声音，更加自然，情绪更加丰富
-- [ ] 增加视频转场效果，使其看起来更加的流畅
-- [ ] 增加更多视频素材来源，优化视频素材和文案的匹配度
-- [ ] 增加视频长度选项：短、中、长
-- [ ] 支持更多的语音合成服务商，比如 OpenAI TTS
-- [ ] 自动上传到YouTube平台
+- [ ] Hỗ trợ lồng tiếng GPT-SoVITS
+- [ ] Tối ưu hóa tổng hợp giọng nói, sử dụng mô hình lớn để tạo ra giọng nói tự nhiên hơn, phong phú cảm xúc hơn
+- [ ] Thêm hiệu ứng chuyển cảnh video để làm cho video mượt mà hơn
+- [ ] Thêm nhiều nguồn tài liệu video, tối ưu hóa sự phù hợp giữa tài liệu video và kịch bản
+- [ ] Thêm tùy chọn độ dài video: ngắn, trung bình, dài
+- [ ] Hỗ trợ nhiều nhà cung cấp dịch vụ tổng hợp giọng nói hơn, như OpenAI TTS
+- [ ] Tự động tải lên YouTube
 
-## 视频演示 📺
+## Video demo 📺
 
-### 竖屏 9:16
+### Màn hình dọc 9:16
 
 <table>
 <thead>
 <tr>
-<th align="center"><g-emoji class="g-emoji" alias="arrow_forward">▶️</g-emoji> 《如何增加生活的乐趣》</th>
-<th align="center"><g-emoji class="g-emoji" alias="arrow_forward">▶️</g-emoji> 《金钱的作用》<br>更真实的合成声音</th>
-<th align="center"><g-emoji class="g-emoji" alias="arrow_forward">▶️</g-emoji> 《生命的意义是什么》</th>
+<th align="center"><g-emoji class="g-emoji" alias="arrow_forward">▶️</g-emoji> 《Làm thế nào để thêm niềm vui vào cuộc sống》</th>
+<th align="center"><g-emoji class="g-emoji" alias="arrow_forward">▶️</g-emoji> 《Vai trò của tiền bạc》<br>Giọng nói tổng hợp chân thực hơn</th>
+<th align="center"><g-emoji class="g-emoji" alias="arrow_forward">▶️</g-emoji> 《Ý nghĩa của cuộc sống là gì》</th>
 </tr>
 </thead>
 <tbody>
@@ -93,13 +91,13 @@
 </tbody>
 </table>
 
-### 横屏 16:9
+### Màn hình ngang 16:9
 
 <table>
 <thead>
 <tr>
-<th align="center"><g-emoji class="g-emoji" alias="arrow_forward">▶️</g-emoji>《生命的意义是什么》</th>
-<th align="center"><g-emoji class="g-emoji" alias="arrow_forward">▶️</g-emoji>《为什么要运动》</th>
+<th align="center"><g-emoji class="g-emoji" alias="arrow_forward">▶️</g-emoji>《Ý nghĩa của cuộc sống là gì》</th>
+<th align="center"><g-emoji class="g-emoji" alias="arrow_forward">▶️</g-emoji>《Tại sao chúng ta nên tập thể dục》</th>
 </tr>
 </thead>
 <tbody>
@@ -110,52 +108,51 @@
 </tbody>
 </table>
 
-## 配置要求 📦
+## Yêu cầu cấu hình 📦
 
-- 建议最低 CPU 4核或以上，内存 8G 或以上，显卡非必须
-- Windows 10 或 MacOS 11.0 以上系统
+- Đề xuất tối thiểu CPU 4 nhân trở lên, RAM 8GB trở lên, card đồ họa không bắt buộc
+- Windows 10 hoặc MacOS 11.0 trở lên
 
-## 快速开始 🚀
+## Bắt đầu nhanh 🚀
 
-下载一键启动包，解压直接使用（路径不要有 **中文**、**特殊字符**、**空格**）
+Tải gói khởi động một chạm, giải nén và sử dụng trực tiếp (đường dẫn không nên có **ký tự Trung Quốc**, **ký tự đặc biệt**, **khoảng trắng**)
 
 ### Windows
-- 百度网盘（1.2.1 最新版本）: https://pan.baidu.com/s/1pSNjxTYiVENulTLm6zieMQ?pwd=g36q 提取码: g36q
+- Baidu Netdisk (phiên bản mới nhất 1.2.1): https://pan.baidu.com/s/1pSNjxTYiVENulTLm6zieMQ?pwd=g36q Mã trích xuất: g36q
 
-下载后，建议先**双击执行** `update.bat` 更新到**最新代码**，然后双击 `start.bat` 启动
+Sau khi tải xuống, nên **nhấp đúp vào** `update.bat` để cập nhật lên **mã nguồn mới nhất**, sau đó nhấp đúp vào `start.bat` để khởi động
 
-启动后，会自动打开浏览器（如果打开是空白，建议换成 **Chrome** 或者 **Edge** 打开）
+Sau khi khởi động, trình duyệt sẽ tự động mở (nếu trang trống, hãy thử dùng **Chrome** hoặc **Edge**)
 
-### 其他系统
+### Các hệ điều hành khác
 
-还没有制作一键启动包，看下面的 **安装部署** 部分，建议使用 **docker** 部署，更加方便。
+Chưa có gói khởi động một chạm, vui lòng xem phần **Cài đặt và triển khai** bên dưới, nên sử dụng **docker** để triển khai, thuận tiện hơn.
 
-## 安装部署 📥
+## Cài đặt và triển khai 📥
 
-### 前提条件
+### Điều kiện tiên quyết
 
-- 尽量不要使用 **中文路径**，避免出现一些无法预料的问题
-- 请确保你的 **网络** 是正常的，VPN需要打开`全局流量`模式
+- Nên tránh sử dụng **đường dẫn tiếng Trung Quốc** để tránh các vấn đề không lường trước được
+- Đảm bảo **kết nối mạng** hoạt động bình thường, VPN cần bật chế độ `luồng lưu lượng toàn cầu`
 
-#### ① 克隆代码
+#### ① Sao chép mã nguồn
 
 ```shell
 git clone https://github.com/harry0703/MoneyPrinterTurbo.git
 ```
 
-#### ② 修改配置文件
+#### ② Sửa đổi tệp cấu hình
 
-- 将 `config.example.toml` 文件复制一份，命名为 `config.toml`
-- 按照 `config.toml` 文件中的说明，配置好 `pexels_api_keys` 和 `llm_provider`，并根据 llm_provider 对应的服务商，配置相关的
-  API Key
+- Sao chép tệp `config.example.toml` và đổi tên thành `config.toml`
+- Theo hướng dẫn trong tệp `config.toml`, cấu hình `pexels_api_keys` và `llm_provider`, và dựa vào nhà cung cấp llm_provider tương ứng, cấu hình API Key liên quan
 
-### Docker部署 🐳
+### Triển khai Docker 🐳
 
-#### ① 启动Docker
+#### ① Khởi động Docker
 
-如果未安装 Docker，请先安装 https://www.docker.com/products/docker-desktop/
+Nếu chưa cài đặt Docker, hãy cài đặt trước: https://www.docker.com/products/docker-desktop/
 
-如果是Windows系统，请参考微软的文档：
+Nếu bạn dùng Windows, hãy tham khảo tài liệu của Microsoft:
 
 1. https://learn.microsoft.com/zh-cn/windows/wsl/install
 2. https://learn.microsoft.com/zh-cn/windows/wsl/tutorials/wsl-containers
@@ -165,26 +162,26 @@ cd MoneyPrinterTurbo
 docker-compose up
 ```
 
-> 注意：最新版的docker安装时会自动以插件的形式安装docker compose，启动命令调整为docker compose up
+> Lưu ý: Phiên bản docker mới nhất sẽ tự động cài đặt docker compose dưới dạng plugin, lệnh khởi động đã được điều chỉnh thành docker compose up
 
-#### ② 访问Web界面
+#### ② Truy cập giao diện Web
 
-打开浏览器，访问 http://0.0.0.0:8501
+Mở trình duyệt, truy cập http://0.0.0.0:8501
 
-#### ③ 访问API文档
+#### ③ Truy cập tài liệu API
 
-打开浏览器，访问 http://0.0.0.0:8080/docs 或者 http://0.0.0.0:8080/redoc
+Mở trình duyệt, truy cập http://0.0.0.0:8080/docs hoặc http://0.0.0.0:8080/redoc
 
-### 手动部署 📦
+### Triển khai thủ công 📦
 
-> 视频教程
+> Hướng dẫn video
 
-- 完整的使用演示：https://v.douyin.com/iFhnwsKY/
-- 如何在Windows上部署：https://v.douyin.com/iFyjoW3M
+- Demo sử dụng đầy đủ: https://v.douyin.com/iFhnwsKY/
+- Cách triển khai trên Windows: https://v.douyin.com/iFyjoW3M
 
-#### ① 创建虚拟环境
+#### ① Tạo môi trường ảo
 
-建议使用 [conda](https://conda.io/projects/conda/en/latest/user-guide/install/index.html) 创建 python 虚拟环境
+Nên sử dụng [conda](https://conda.io/projects/conda/en/latest/user-guide/install/index.html) để tạo môi trường ảo Python
 
 ```shell
 git clone https://github.com/harry0703/MoneyPrinterTurbo.git
@@ -194,13 +191,12 @@ conda activate MoneyPrinterTurbo
 pip install -r requirements.txt
 ```
 
-#### ② 安装好 ImageMagick
+#### ② Cài đặt ImageMagick
 
 - Windows:
-    - 下载 https://imagemagick.org/script/download.php 选择Windows版本，切记一定要选择 **静态库** 版本，比如
-      ImageMagick-7.1.1-32-Q16-x64-**static**.exe
-    - 安装下载好的 ImageMagick，**注意不要修改安装路径**
-    - 修改 `配置文件 config.toml` 中的 `imagemagick_path` 为你的 **实际安装路径**
+    - Tải xuống từ https://imagemagick.org/script/download.php, chọn phiên bản Windows, nhớ chọn phiên bản **thư viện tĩnh**, ví dụ: ImageMagick-7.1.1-32-Q16-x64-**static**.exe
+    - Cài đặt ImageMagick đã tải xuống, **chú ý không thay đổi đường dẫn cài đặt**
+    - Sửa đổi `imagemagick_path` trong `tệp cấu hình config.toml` thành **đường dẫn cài đặt thực tế** của bạn
 
 - MacOS:
   ```shell
@@ -215,9 +211,9 @@ pip install -r requirements.txt
   sudo yum install ImageMagick
   ```
 
-#### ③ 启动Web界面 🌐
+#### ③ Khởi động giao diện Web 🌐
 
-注意需要到 MoneyPrinterTurbo 项目 `根目录` 下执行以下命令
+Lưu ý cần thực hiện các lệnh sau trong `thư mục gốc` của dự án MoneyPrinterTurbo
 
 ###### Windows
 
@@ -226,54 +222,54 @@ conda activate MoneyPrinterTurbo
 webui.bat
 ```
 
-###### MacOS or Linux
+###### MacOS hoặc Linux
 
 ```shell
 conda activate MoneyPrinterTurbo
 sh webui.sh
 ```
 
-启动后，会自动打开浏览器（如果打开是空白，建议换成 **Chrome** 或者 **Edge** 打开）
+Sau khi khởi động, trình duyệt sẽ tự động mở (nếu trang trống, hãy thử dùng **Chrome** hoặc **Edge**)
 
-#### ④ 启动API服务 🚀
+#### ④ Khởi động dịch vụ API 🚀
 
 ```shell
 python main.py
 ```
 
-启动后，可以查看 `API文档` http://127.0.0.1:8080/docs 或者 http://127.0.0.1:8080/redoc 直接在线调试接口，快速体验。
+Sau khi khởi động, bạn có thể xem `tài liệu API` tại http://127.0.0.1:8080/docs hoặc http://127.0.0.1:8080/redoc để gỡ lỗi giao diện trực tuyến và trải nghiệm nhanh chóng.
 
-## 语音合成 🗣
+## Tổng hợp giọng nói 🗣
 
-所有支持的声音列表，可以查看：[声音列表](./docs/voice-list.txt)
+Để xem danh sách tất cả giọng nói được hỗ trợ, hãy xem: [Danh sách giọng nói](./docs/voice-list.txt)
 
-2024-04-16 v1.1.2 新增了9种Azure的语音合成声音，需要配置API KEY，该声音合成的更加真实。
+Ngày 16-04-2024, phiên bản v1.1.2 đã thêm 9 giọng tổng hợp Azure mới, cần cấu hình API KEY, giọng nói này tổng hợp chân thực hơn.
 
-## 字幕生成 📜
+## Tạo phụ đề 📜
 
-当前支持2种字幕生成方式：
+Hiện tại hỗ trợ 2 phương pháp tạo phụ đề:
 
-- **edge**: 生成`速度快`，性能更好，对电脑配置没有要求，但是质量可能不稳定
-- **whisper**: 生成`速度慢`，性能较差，对电脑配置有一定要求，但是`质量更可靠`。
+- **edge**: Tạo `nhanh`, hiệu suất tốt hơn, không yêu cầu cấu hình máy tính, nhưng chất lượng có thể không ổn định
+- **whisper**: Tạo `chậm`, hiệu suất kém hơn, có yêu cầu nhất định về cấu hình máy tính, nhưng `chất lượng đáng tin cậy hơn`.
 
-可以修改 `config.toml` 配置文件中的 `subtitle_provider` 进行切换
+Có thể sửa đổi `subtitle_provider` trong tệp cấu hình `config.toml` để chuyển đổi
 
-建议使用 `edge` 模式，如果生成的字幕质量不好，再切换到 `whisper` 模式
+Nên sử dụng chế độ `edge`, nếu chất lượng phụ đề không tốt, hãy chuyển sang chế độ `whisper`
 
-> 注意：
+> Lưu ý:
 
-1. whisper 模式下需要到 HuggingFace 下载一个模型文件，大约 3GB 左右，请确保网络通畅
-2. 如果留空，表示不生成字幕。
+1. Chế độ whisper yêu cầu tải xuống một tệp mô hình từ HuggingFace, khoảng 3GB, hãy đảm bảo kết nối mạng thông suốt
+2. Nếu để trống, nghĩa là không tạo phụ đề.
 
-> 由于国内无法访问 HuggingFace，可以使用以下方法下载 `whisper-large-v3` 的模型文件
+> Do Trung Quốc không thể truy cập HuggingFace, bạn có thể sử dụng phương pháp sau để tải xuống tệp mô hình `whisper-large-v3`
 
-下载地址：
+Địa chỉ tải xuống:
 
-- 百度网盘: https://pan.baidu.com/s/11h3Q6tsDtjQKTjUu3sc5cA?pwd=xjs9
-- 夸克网盘：https://pan.quark.cn/s/3ee3d991d64b
+- Baidu Netdisk: https://pan.baidu.com/s/11h3Q6tsDtjQKTjUu3sc5cA?pwd=xjs9
+- Quark Netdisk: https://pan.quark.cn/s/3ee3d991d64b
 
-模型下载后解压，整个目录放到 `.\MoneyPrinterTurbo\models` 里面，
-最终的文件路径应该是这样: `.\MoneyPrinterTurbo\models\whisper-large-v3`
+Sau khi tải xuống mô hình, giải nén và đặt toàn bộ thư mục vào `.\MoneyPrinterTurbo\models`,
+đường dẫn tệp cuối cùng sẽ là: `.\MoneyPrinterTurbo\models\whisper-large-v3`
 
 ```
 MoneyPrinterTurbo  
@@ -286,113 +282,114 @@ MoneyPrinterTurbo
   │          vocabulary.json
 ```
 
-## 背景音乐 🎵
+## Nhạc nền 🎵
 
-用于视频的背景音乐，位于项目的 `resource/songs` 目录下。
-> 当前项目里面放了一些默认的音乐，来自于 YouTube 视频，如有侵权，请删除。
+Nhạc nền cho video nằm trong thư mục `resource/songs` của dự án.
+> Dự án hiện có một số nhạc mặc định, lấy từ video YouTube, nếu vi phạm bản quyền, vui lòng xóa.
 
-## 字幕字体 🅰
+## Phông chữ phụ đề 🅰
 
-用于视频字幕的渲染，位于项目的 `resource/fonts` 目录下，你也可以放进去自己的字体。
+Dùng để hiển thị phụ đề video, nằm trong thư mục `resource/fonts` của dự án, bạn cũng có thể thêm phông chữ riêng.
 
-## 常见问题 🤔
+## Câu hỏi thường gặp 🤔
 
-### ❓如何使用免费的OpenAI GPT-3.5模型?
+### ❓Làm thế nào để sử dụng mô hình OpenAI GPT-3.5 miễn phí?
 
-[OpenAI宣布ChatGPT里面3.5已经免费了](https://openai.com/blog/start-using-chatgpt-instantly)，有开发者将其封装成了API，可以直接调用
+[OpenAI đã thông báo rằng ChatGPT 3.5 đã miễn phí](https://openai.com/blog/start-using-chatgpt-instantly), và một số nhà phát triển đã đóng gói nó thành API để gọi trực tiếp
 
-**确保你安装和启动了docker服务**，执行以下命令启动docker服务
+**Đảm bảo bạn đã cài đặt và khởi động dịch vụ docker**, thực hiện lệnh sau để khởi động dịch vụ docker
 
 ```shell
 docker run -p 3040:3040 missuo/freegpt35
 ```
 
-启动成功后，修改 `config.toml` 中的配置
+Sau khi khởi động thành công, sửa đổi cấu hình trong `config.toml`
 
-- `llm_provider` 设置为 `openai`
-- `openai_api_key` 随便填写一个即可，比如 '123456'
-- `openai_base_url` 改为 `http://localhost:3040/v1/`
-- `openai_model_name` 改为 `gpt-3.5-turbo`
+- Đặt `llm_provider` thành `openai`
+- `openai_api_key` điền bất kỳ giá trị nào, ví dụ '123456'
+- Thay đổi `openai_base_url` thành `http://localhost:3040/v1/`
+- Thay đổi `openai_model_name` thành `gpt-3.5-turbo`
 
-> 注意：该方式稳定性较差
+> Lưu ý: Phương pháp này kém ổn định
 
 ### ❓AttributeError: 'str' object has no attribute 'choices'`
 
-这个问题是由于大模型没有返回正确的回复导致的。
+Vấn đề này xảy ra do mô hình lớn không trả về phản hồi chính xác.
 
-大概率是网络原因， 使用 **VPN**，或者设置 `openai_base_url` 为你的代理 ，应该就可以解决了。
+Khả năng cao là do vấn đề mạng, hãy sử dụng **VPN** hoặc đặt `openai_base_url` thành proxy của bạn để giải quyết.
 
-同时建议使用 **Moonshot** 或 **DeepSeek** 作为大模型提供商，这两个服务商在国内访问速度更快，更加稳定。
+Đồng thời, nên sử dụng **Moonshot** hoặc **DeepSeek** làm nhà cung cấp mô hình lớn, hai nhà cung cấp này có tốc độ truy cập nhanh hơn và ổn định hơn tại Trung Quốc.
 
 ### ❓RuntimeError: No ffmpeg exe could be found
 
-通常情况下，ffmpeg 会被自动下载，并且会被自动检测到。
-但是如果你的环境有问题，无法自动下载，可能会遇到如下错误：
+Thông thường, ffmpeg sẽ được tự động tải xuống và phát hiện.
+Nhưng nếu môi trường của bạn có vấn đề, không thể tự động tải xuống, bạn có thể gặp lỗi sau:
 
 ```
 RuntimeError: No ffmpeg exe could be found.
 Install ffmpeg on your system, or set the IMAGEIO_FFMPEG_EXE environment variable.
 ```
 
-此时你可以从 https://www.gyan.dev/ffmpeg/builds/ 下载ffmpeg，解压后，设置 `ffmpeg_path` 为你的实际安装路径即可。
+Lúc này bạn có thể tải ffmpeg từ https://www.gyan.dev/ffmpeg/builds/, sau khi giải nén, đặt `ffmpeg_path` thành đường dẫn cài đặt thực tế của bạn.
 
 ```toml
 [app]
-# 请根据你的实际路径设置，注意 Windows 路径分隔符为 \\
+# Vui lòng đặt theo đường dẫn thực tế của bạn, lưu ý dấu phân cách đường dẫn Windows là \\
 ffmpeg_path = "C:\\Users\\harry\\Downloads\\ffmpeg.exe"
 ```
 
-### ❓ImageMagick的安全策略阻止了与临时文件@/tmp/tmpur5hyyto.txt相关的操作
+### ❓Chính sách bảo mật của ImageMagick ngăn chặn các hoạt động liên quan đến tệp tạm thời @/tmp/tmpur5hyyto.txt
 
-可以在ImageMagick的配置文件policy.xml中找到这些策略。
-这个文件通常位于 /etc/ImageMagick-`X`/ 或 ImageMagick 安装目录的类似位置。
-修改包含`pattern="@"`的条目，将`rights="none"`更改为`rights="read|write"`以允许对文件的读写操作。
+Bạn có thể tìm thấy các chính sách này trong tệp cấu hình policy.xml của ImageMagick.
+Tệp này thường nằm tại /etc/ImageMagick-`X`/ hoặc vị trí tương tự trong thư mục cài đặt ImageMagick.
+Sửa đổi mục có `pattern="@"`, thay đổi `rights="none"` thành `rights="read|write"` để cho phép đọc và ghi tệp.
 
 ### ❓OSError: [Errno 24] Too many open files
 
-这个问题是由于系统打开文件数限制导致的，可以通过修改系统的文件打开数限制来解决。
+Vấn đề này do giới hạn số lượng tệp mở của hệ thống, có thể giải quyết bằng cách sửa đổi giới hạn.
 
-查看当前限制
+Kiểm tra giới hạn hiện tại
 
 ```shell
 ulimit -n
 ```
 
-如果过低，可以调高一些，比如
+Nếu quá thấp, có thể tăng lên, ví dụ
 
 ```shell
 ulimit -n 10240
 ```
 
-### ❓Whisper 模型下载失败，出现如下错误
+### ❓Lỗi tải xuống mô hình Whisper
 
 LocalEntryNotfoundEror: Cannot find an appropriate cached snapshotfolderfor the specified revision on the local disk and
 outgoing trafic has been disabled.
 To enablerepo look-ups and downloads online, pass 'local files only=False' as input.
 
-或者
+Hoặc
 
 An error occured while synchronizing the model Systran/faster-whisper-large-v3 from the Hugging Face Hub:
 An error happened while trying to locate the files on the Hub and we cannot find the appropriate snapshot folder for the
 specified revision on the local disk. Please check your internet connection and try again.
 Trying to load the model directly from the local cache, if it exists.
 
-解决方法：[点击查看如何从网盘手动下载模型](#%E5%AD%97%E5%B9%95%E7%94%9F%E6%88%90-)
+Cách giải quyết: [Nhấp vào để xem cách tải xuống mô hình thủ công từ disk cloud](#t%E1%BA%A1o-ph%E1%BB%A5-%C4%91%E1%BB%81-)
 
-## 反馈建议 📢
+## Phản hồi và đề xuất 📢
 
-- 可以提交 [issue](https://github.com/harry0703/MoneyPrinterTurbo/issues)
-  或者 [pull request](https://github.com/harry0703/MoneyPrinterTurbo/pulls)。
+- Bạn có thể gửi [issue](https://github.com/harry0703/MoneyPrinterTurbo/issues)
+  hoặc [pull request](https://github.com/harry0703/MoneyPrinterTurbo/pulls).
 
-## 参考项目 📚
+## Dự án tham khảo 📚
 
-该项目基于 https://github.com/FujiwaraChoki/MoneyPrinter 重构而来，做了大量的优化，增加了更多的功能。
-感谢原作者的开源精神。
+Dự án này được xây dựng lại từ https://github.com/FujiwaraChoki/MoneyPrinter với nhiều tối ưu hóa và tính năng bổ sung.
+Cảm ơn tác giả gốc vì tinh thần mã nguồn mở.
 
-## 许可证 📝
+## Giấy phép 📝
 
-点击查看 [`LICENSE`](LICENSE) 文件
+Nhấp để xem tệp [`LICENSE`](LICENSE)
 
-## Star History
+## Lịch sử Star
 
 [![Star History Chart](https://api.star-history.com/svg?repos=harry0703/MoneyPrinterTurbo&type=Date)](https://star-history.com/#harry0703/MoneyPrinterTurbo&Date)
+</div> 

@@ -7,8 +7,10 @@ services:
       context: .
       dockerfile: Dockerfile
     container_name: "webui"
-    ports:
-      - "8501:8501"
+    #ports:
+    #  - "8501:8501"
+    expose:
+      - "8501"  # Internal access only; no need to publish port externally
     command: [ "streamlit", "run", "./webui/Main.py","--browser.serverAddress=127.0.0.1","--server.enableCORS=True","--browser.gatherUsageStats=False" ]
     volumes: *common-volumes
     restart: always
@@ -17,8 +19,10 @@ services:
       context: .
       dockerfile: Dockerfile
     container_name: "api"
-    ports:
-      - "8080:8080"
+    #ports:
+    #  - "8080:8080"
+    expose:
+      - "8080"  # Internal access only; no need to publish port externally
     command: [ "python3", "main.py" ]
     volumes: *common-volumes
     restart: always
